@@ -40,3 +40,26 @@ AeroOps is a web-based application designed to manage airport ground handling op
 - Composer
 - Node.js
 - Postman
+
+## 🚀 Planned Features
+
+### Authentication
+- Login
+- Register
+- User Profile
+
+### Dashboard
+- Operational Summary
+- Flight Statistics
+- Staff Statistics
+
+### Master Data
+- Airlines
+- Aircraft
+- Ground Staff
+- Ground Handling Services
+
+### Operations
+- Flight Schedule
+- Ground Handling Assignment
+- Operational Report
