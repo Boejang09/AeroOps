@@ -14,3 +14,29 @@ AeroOps is a web-based application designed to manage airport ground handling op
 - Learn JavaScript & React
 - Practice Git & GitHub Workflow
 - Build a Professional Portfolio Project
+
+## 🛠 Tech Stack
+
+### Backend
+- Laravel
+- PHP
+
+### Frontend (v1)
+- Blade
+- Bootstrap 5
+- JavaScript
+
+### Frontend (v2)
+- React
+
+### Database
+- MySQL
+
+### Tools
+- Git
+- GitHub
+- VS Code
+- Laragon
+- Composer
+- Node.js
+- Postman
