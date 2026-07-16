@@ -63,3 +63,20 @@ AeroOps is a web-based application designed to manage airport ground handling op
 - Flight Schedule
 - Ground Handling Assignment
 - Operational Report
+
+## 🗺 Roadmap
+
+- [x] Project Planning
+- [x] Requirement Analysis
+- [ ] Database Design
+- [ ] Laravel Project Setup
+- [ ] Authentication Module
+- [ ] Master Data Module
+- [ ] Operations Module
+- [ ] Dashboard
+- [ ] Testing
+- [ ] Documentation
+- [ ] Release v1.0
+- [ ] Laravel REST API
+- [ ] React Frontend
+- [ ] Release v2.0
