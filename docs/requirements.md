@@ -116,3 +116,18 @@ The system should meet the following quality requirements:
 
 - The system should run on modern web browsers.
 - The application should be responsive on desktop and mobile devices.
+
+---
+
+# Business Rules
+
+The following business rules define how the system operates:
+
+1. One airline can own multiple aircraft.
+2. One aircraft can be scheduled for multiple flights.
+3. One flight can have multiple ground handling assignments.
+4. One ground staff member can handle multiple assignments.
+5. Each assignment is associated with one ground handling service.
+6. Each assignment may produce one operational report.
+7. Only authenticated users can access the system.
+8. Only administrators can manage master data.
