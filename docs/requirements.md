@@ -76,3 +76,43 @@ The system shall:
 - Assign ground staff to operational services.
 - Record operational reports.
 - Update assignment status.
+
+---
+
+# Non-Functional Requirements
+
+The system should meet the following quality requirements:
+
+### Security
+
+- Only authenticated users can access the system.
+- Passwords must be encrypted.
+- User access is controlled based on roles.
+
+---
+
+### Performance
+
+- The system should load pages efficiently.
+- Database queries should be optimized.
+
+---
+
+### Usability
+
+- The user interface should be simple and easy to use.
+- Navigation should be clear and consistent.
+
+---
+
+### Maintainability
+
+- The project should use a modular structure.
+- Source code should follow Laravel coding standards.
+
+---
+
+### Compatibility
+
+- The system should run on modern web browsers.
+- The application should be responsive on desktop and mobile devices.
