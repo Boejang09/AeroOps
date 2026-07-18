@@ -113,3 +113,75 @@ The following entities have been identified for the AeroOps system.
 | report_time | Report timestamp |
 | notes | Operational notes |
 | report_status | Final status |
+
+---
+
+# Primary Key & Foreign Key
+
+## User
+
+| Attribute | Key |
+|-----------|-----|
+| user_id | Primary Key |
+
+---
+
+## Ground Staff
+
+| Attribute | Key |
+|-----------|-----|
+| staff_id | Primary Key |
+
+---
+
+## Airline
+
+| Attribute | Key |
+|-----------|-----|
+| airline_id | Primary Key |
+
+---
+
+## Aircraft
+
+| Attribute | Key |
+|-----------|-----|
+| aircraft_id | Primary Key |
+| airline_id | Foreign Key → Airline.airline_id |
+
+---
+
+## Flight
+
+| Attribute | Key |
+|-----------|-----|
+| flight_id | Primary Key |
+| aircraft_id | Foreign Key → Aircraft.aircraft_id |
+
+---
+
+## Ground Handling Service
+
+| Attribute | Key |
+|-----------|-----|
+| service_id | Primary Key |
+
+---
+
+## Assignment
+
+| Attribute | Key |
+|-----------|-----|
+| assignment_id | Primary Key |
+| flight_id | Foreign Key → Flight.flight_id |
+| staff_id | Foreign Key → GroundStaff.staff_id |
+| service_id | Foreign Key → GroundHandlingService.service_id |
+
+---
+
+## Operational Report
+
+| Attribute | Key |
+|-----------|-----|
+| report_id | Primary Key |
+| assignment_id | Foreign Key → Assignment.assignment_id |
