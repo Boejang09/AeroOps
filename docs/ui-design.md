@@ -47,3 +47,11 @@ The AeroOps user interface is designed to be simple, responsive, and easy to nav
 - Search & Filter
 - Export PDF
 - Responsive Mobile Layout
+
+# User Interface Design
+
+## Login Wireframe
+
+The initial login page wireframe for AeroOps.
+
+![Login Wireframe](assets/images/login-wireframe.png)
