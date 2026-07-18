@@ -185,3 +185,18 @@ The following entities have been identified for the AeroOps system.
 |-----------|-----|
 | report_id | Primary Key |
 | assignment_id | Foreign Key → Assignment.assignment_id |
+
+---
+
+# Relationship Design
+
+## Entity Relationships
+
+| Entity A | Relationship | Entity B | Description |
+|----------|--------------|----------|-------------|
+| Airline | 1 : N | Aircraft | One airline owns multiple aircraft. |
+| Aircraft | 1 : N | Flight | One aircraft can be scheduled for multiple flights. |
+| Flight | 1 : N | Assignment | One flight can have multiple assignments. |
+| Ground Staff | 1 : N | Assignment | One staff member can receive multiple assignments. |
+| Ground Handling Service | 1 : N | Assignment | One service type can be used in multiple assignments. |
+| Assignment | 1 : 1 | Operational Report | One assignment produces one operational report. |
