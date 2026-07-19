@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Halaman-1" id="_NUhRP5w-ACQEbJUJd4n">
+    <mxGraphModel dx="1171" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yqWiH4eNqRKBRU3zEJru-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="600" width="520" x="160" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="yqWiH4eNqRKBRU3zEJru-3" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=none;routingCenterX=-0.5;" value="" vertex="1">
+          <mxGeometry height="60" width="520" x="160" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="yqWiH4eNqRKBRU3zEJru-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="AeroOps" vertex="1">
+          <mxGeometry height="30" width="90" x="170" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="yqWiH4eNqRKBRU3zEJru-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="Admin" vertex="1">
+          <mxGeometry height="30" width="60" x="500" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="yqWiH4eNqRKBRU3zEJru-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="Logout" vertex="1">
+          <mxGeometry height="30" width="60" x="600" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="yqWiH4eNqRKBRU3zEJru-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="Dashboard" vertex="1">
+          <mxGeometry height="30" width="100" x="170" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="yqWiH4eNqRKBRU3zEJru-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="70" width="130" x="180" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="yqWiH4eNqRKBRU3zEJru-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="70" width="130" x="348" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="yqWiH4eNqRKBRU3zEJru-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="70" width="130" x="530" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="yqWiH4eNqRKBRU3zEJru-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="70" width="130" x="180" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="yqWiH4eNqRKBRU3zEJru-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="Recent Flight Schedule&amp;nbsp;&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="190" x="170" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="yqWiH4eNqRKBRU3zEJru-129" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="120" width="400" x="180" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="yqWiH4eNqRKBRU3zEJru-130" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Flight" vertex="1">
+          <mxGeometry height="40" width="100" x="180" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="yqWiH4eNqRKBRU3zEJru-131" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Aircraft" vertex="1">
+          <mxGeometry height="40" width="100" x="280" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="yqWiH4eNqRKBRU3zEJru-132" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Route" vertex="1">
+          <mxGeometry height="40" width="100" x="380" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="yqWiH4eNqRKBRU3zEJru-133" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Status" vertex="1">
+          <mxGeometry height="40" width="100" x="480" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="yqWiH4eNqRKBRU3zEJru-134" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="GA210" vertex="1">
+          <mxGeometry height="40" width="100" x="180" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="yqWiH4eNqRKBRU3zEJru-135" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="JT312" vertex="1">
+          <mxGeometry height="40" width="100" x="180" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="yqWiH4eNqRKBRU3zEJru-136" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&amp;nbsp;PK-GIA" vertex="1">
+          <mxGeometry height="40" width="100" x="280" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="yqWiH4eNqRKBRU3zEJru-137" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="CGK" vertex="1">
+          <mxGeometry height="40" width="100" x="380" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="yqWiH4eNqRKBRU3zEJru-138" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Completed" vertex="1">
+          <mxGeometry height="40" width="100" x="480" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="yqWiH4eNqRKBRU3zEJru-139" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PK-LKU" vertex="1">
+          <mxGeometry height="40" width="100" x="280" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="yqWiH4eNqRKBRU3zEJru-140" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SUB" vertex="1">
+          <mxGeometry height="40" width="100" x="380" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="yqWiH4eNqRKBRU3zEJru-141" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="Flights" vertex="1">
+          <mxGeometry height="30" width="60" x="190" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="yqWiH4eNqRKBRU3zEJru-142" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="152" vertex="1">
+          <mxGeometry height="30" width="60" x="178" y="333" as="geometry" />
+        </mxCell>
+        <mxCell id="yqWiH4eNqRKBRU3zEJru-143" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="Aircraft" vertex="1">
+          <mxGeometry height="30" width="60" x="356" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="yqWiH4eNqRKBRU3zEJru-144" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="42" vertex="1">
+          <mxGeometry height="30" width="60" x="339" y="333" as="geometry" />
+        </mxCell>
+        <mxCell id="yqWiH4eNqRKBRU3zEJru-145" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="Staff" vertex="1">
+          <mxGeometry height="30" width="60" x="530" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="yqWiH4eNqRKBRU3zEJru-146" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="38" vertex="1">
+          <mxGeometry height="30" width="60" x="523" y="333" as="geometry" />
+        </mxCell>
+        <mxCell id="yqWiH4eNqRKBRU3zEJru-147" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="Assignment" vertex="1">
+          <mxGeometry height="30" width="100" x="190" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="yqWiH4eNqRKBRU3zEJru-148" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="17" vertex="1">
+          <mxGeometry height="30" width="60" x="177" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="yqWiH4eNqRKBRU3zEJru-150" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Scheduled" vertex="1">
+          <mxGeometry height="40" width="100" x="480" y="640" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

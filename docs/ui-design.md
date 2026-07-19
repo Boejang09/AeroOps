@@ -55,3 +55,9 @@ The AeroOps user interface is designed to be simple, responsive, and easy to nav
 The initial login page wireframe for AeroOps.
 
 ![Login Wireframe](assets/images/login-wireframe.png)
+
+## Dashboard Wireframe
+
+The dashboard provides an overview of airport ground handling operations.
+
+![Dashboard Wireframe](assets/images/dashboard-wireframe.png)
