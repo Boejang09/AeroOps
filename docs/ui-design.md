@@ -61,3 +61,9 @@ The initial login page wireframe for AeroOps.
 The dashboard provides an overview of airport ground handling operations.
 
 ![Dashboard Wireframe](assets/images/dashboard-wireframe.png)
+
+## Airlines Management Wireframe
+
+The airline management page allows administrators to manage airline master data including adding, searching, updating, and deleting airline information.
+
+![Airlines Wireframe](assets/images/airlines-wireframe.png)
