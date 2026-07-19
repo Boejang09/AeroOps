@@ -73,3 +73,9 @@ The airline management page allows administrators to manage airline master data 
 The aircraft management page allows administrators to manage aircraft information related to airline ownership.
 
 ![Aircraft Wireframe](assets/images/aircraft-wireframe.png)
+
+## Flight Management Wireframe
+
+The flight management page allows administrators to manage flight schedules, aircraft assignment, routes, and operational status.
+
+![Flight Wireframe](assets/images/flight-wireframe.png)
