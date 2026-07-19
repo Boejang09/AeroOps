@@ -67,3 +67,9 @@ The dashboard provides an overview of airport ground handling operations.
 The airline management page allows administrators to manage airline master data including adding, searching, updating, and deleting airline information.
 
 ![Airlines Wireframe](assets/images/airlines-wireframe.png)
+
+## Aircraft Management Wireframe
+
+The aircraft management page allows administrators to manage aircraft information related to airline ownership.
+
+![Aircraft Wireframe](assets/images/aircraft-wireframe.png)
