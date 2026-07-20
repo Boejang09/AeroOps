@@ -79,3 +79,9 @@ The aircraft management page allows administrators to manage aircraft informatio
 The flight management page allows administrators to manage flight schedules, aircraft assignment, routes, and operational status.
 
 ![Flight Wireframe](assets/images/flight-wireframe.png)
+
+## Assignment Management Wireframe
+
+The assignment management page allows administrators to assign ground staff to flights and services while tracking assignment status.
+
+![Assignment Wireframe](assets/images/assignment-wireframe.png)
