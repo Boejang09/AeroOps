@@ -85,3 +85,9 @@ The flight management page allows administrators to manage flight schedules, air
 The assignment management page allows administrators to assign ground staff to flights and services while tracking assignment status.
 
 ![Assignment Wireframe](assets/images/assignment-wireframe.png)
+
+## Operational Report Management Wireframe
+
+The operational report management page allows administrators to view and manage reports generated from completed ground handling assignments.
+
+![Operational Report Wireframe](assets/images/operational-report-wireframe.png)
