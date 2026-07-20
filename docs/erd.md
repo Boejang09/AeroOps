@@ -23,7 +23,7 @@ The ERD illustrates the relationships between entities used in the database desi
 
 ## ERD Diagram
 
-![AeroOps Entity Relationship Diagram](assets/diagrams/aeroops-erd.png)
+![AeroOps Entity Relationship Diagram](assets/images/aeroops-erd.png)
 
 ---
 
