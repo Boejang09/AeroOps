@@ -1,7 +1,7 @@
 USE aeroops;
 
 -- ============================================
--- Airlines
+-- Table: Airlines
 -- ============================================
 
 INSERT INTO airlines (airline_code, airline_name, country)
