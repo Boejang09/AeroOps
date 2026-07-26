@@ -6,6 +6,7 @@ use App\Http\Controllers\AirlineController;
 use App\Http\Controllers\AircraftController;
 use App\Http\Controllers\GroundStaffController;
 use App\Http\Controllers\GroundHandlingServiceController;
+use App\Http\Controllers\FlightController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -38,6 +39,9 @@ Route::middleware('auth')->group(function () {
 
     // Ground Handling Services
     Route::resource('ground-handling-services', GroundHandlingServiceController::class);
+
+    // Flights
+    Route::resource('flights', FlightController::class);
 });
 
 require __DIR__.'/auth.php';
