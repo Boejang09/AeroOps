@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\AirlineController;
 use App\Http\Controllers\AircraftController;
+use App\Http\Controllers\GroundStaffController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -30,6 +31,9 @@ Route::middleware('auth')->group(function () {
 
     // Aircraft
     Route::resource('aircraft', AircraftController::class);
+
+    // Ground Staff
+    Route::resource('ground-staff', GroundStaffController::class);
 });
 
 require __DIR__.'/auth.php';
