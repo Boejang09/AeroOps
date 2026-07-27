@@ -7,6 +7,7 @@ use App\Http\Controllers\AircraftController;
 use App\Http\Controllers\GroundStaffController;
 use App\Http\Controllers\GroundHandlingServiceController;
 use App\Http\Controllers\FlightController;
+use App\Http\Controllers\AssignmentController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -42,6 +43,9 @@ Route::middleware('auth')->group(function () {
 
     // Flights
     Route::resource('flights', FlightController::class);
+
+    // Assignments
+    Route::resource('assignments', AssignmentController::class);
 });
 
 require __DIR__.'/auth.php';
