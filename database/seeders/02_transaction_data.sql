@@ -20,10 +20,10 @@ VALUES
 INSERT INTO assignments
 (flight_id, staff_id, service_id, assignment_date, status)
 VALUES
-(1,1,1,'2026-07-21','Assigned'),
-(2,2,2,'2026-07-21','Assigned'),
+(1,1,1,'2026-07-21','Pending'),
+(2,2,2,'2026-07-21','Pending'),
 (3,3,3,'2026-07-21','Completed'),
-(4,4,4,'2026-07-21','Assigned'),
+(4,4,4,'2026-07-21','Pending'),
 (5,5,5,'2026-07-21','Completed');
 
 -- ============================================
@@ -33,8 +33,8 @@ VALUES
 INSERT INTO operational_reports
 (assignment_id, report_date, description, status)
 VALUES
-(1,'2026-07-21','Passenger check-in completed successfully.','Completed'),
-(2,'2026-07-21','Baggage loading completed on schedule.','Completed'),
-(3,'2026-07-21','Aircraft cleaning completed before departure.','Completed'),
-(4,'2026-07-21','Aircraft marshalled safely to parking stand.','Completed'),
-(5,'2026-07-21','Aircraft refueling completed without issues.','Completed');
+(1,'2026-07-21','Passenger check-in completed successfully.','Approved'),
+(2,'2026-07-21','Baggage loading completed on schedule.','Approved'),
+(3,'2026-07-21','Aircraft cleaning completed before departure.','Approved'),
+(4,'2026-07-21','Aircraft marshalled safely to parking stand.','Approved'),
+(5,'2026-07-21','Aircraft refueling completed without issues.','Approved');
