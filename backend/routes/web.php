@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\AirlineController;
 use App\Http\Controllers\AircraftController;
 use App\Http\Controllers\GroundStaffController;
@@ -14,9 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+// Dashboard
+Route::get('/dashboard', [DashboardController::class, 'index'])
+    ->middleware(['auth', 'verified'])
+    ->name('dashboard');
 
 Route::middleware('auth')->group(function () {
 
@@ -40,7 +42,10 @@ Route::middleware('auth')->group(function () {
     Route::resource('ground-staff', GroundStaffController::class);
 
     // Ground Handling Services
-    Route::resource('ground-handling-services', GroundHandlingServiceController::class);
+    Route::resource(
+        'ground-handling-services',
+        GroundHandlingServiceController::class
+    );
 
     // Flights
     Route::resource('flights', FlightController::class);
@@ -49,7 +54,10 @@ Route::middleware('auth')->group(function () {
     Route::resource('assignments', AssignmentController::class);
 
     // Operational Reports
-    Route::resource('operational-reports', OperationalReportController::class);
+    Route::resource(
+        'operational-reports',
+        OperationalReportController::class
+    );
 });
 
 require __DIR__.'/auth.php';
