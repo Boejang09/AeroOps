@@ -8,6 +8,7 @@ use App\Http\Controllers\GroundStaffController;
 use App\Http\Controllers\GroundHandlingServiceController;
 use App\Http\Controllers\FlightController;
 use App\Http\Controllers\AssignmentController;
+use App\Http\Controllers\OperationalReportController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -46,6 +47,9 @@ Route::middleware('auth')->group(function () {
 
     // Assignments
     Route::resource('assignments', AssignmentController::class);
+
+    // Operational Reports
+    Route::resource('operational-reports', OperationalReportController::class);
 });
 
 require __DIR__.'/auth.php';

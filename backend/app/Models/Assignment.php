@@ -36,4 +36,13 @@ class Assignment extends Model
             'service_id'
         );
     }
+
+    public function operationalReport()
+    {
+        return $this->hasOne(
+            OperationalReport::class,
+            'assignment_id',
+            'assignment_id'
+        );
+    }
 }
